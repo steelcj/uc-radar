@@ -1,6 +1,6 @@
 ---
 dcterms:title: "Commit and Versioning Workflow"
-dcterms:version: "0.1.1"
+dcterms:version: "0.1.2"
 dcterms:creator: "Christopher Steel"
 dcterms:description: "Practical workflow for commits and version bumps: initial commit, and every subsequent version bump after that."
 dcterms:created: "2026-07-24"
@@ -17,7 +17,7 @@ sat:uuid: ""
 sat:version_at_creation: "0.4.0"
 sat:migration_status: pre-sat
 sat:changelog:
-  - version: "0.1.1"
+  - version: "0.1.2"
     date: "2026-07-25"
     author: "Christopher Steel"
     notes: "Compliance pass per ROADMAP.md Milestone 0.3.0. Replaced the em dash in the initial-commit example message with a comma, per Markdown: Use Commas, Not Em Dashes; a template the reader copies is not exempt from the rule."
@@ -29,7 +29,7 @@ sat:changelog:
 
 # Commit and Versioning Workflow
 
-Version: 0.1.1
+Version: 0.1.2
 Status: Draft
 Style Guide: style-guide--versioned-documents-in-unrendered-markdown
 
@@ -329,8 +329,6 @@ To github.com:steelcj/uc-radar.git
  * [new tag]         v0.1.1 -> v0.1.1
 ```
 
-
-
 ## License
 
 This document, *Commit and Versioning Workflow*, by **Christopher Steel**, with AI assistance from **Claude Sonnet 4.6 (Anthropic)**, is licensed under the [GNU Affero General Public License v3.0 or later](https://www.gnu.org/licenses/agpl-3.0.html).
@@ -339,5 +337,6 @@ This document, *Commit and Versioning Workflow*, by **Christopher Steel**, with 
 
 | Version | Status | Notes |
 |---------|--------|-------|
+| 0.1.2 | Draft | Minor edits |
 | 0.1.1 | Draft | Compliance pass: replaced the em dash in the initial-commit example message with a comma |
 | 0.1.0 | Draft | Initial draft, generalized from the osat-fluent-rclone-tool workflow into a project-neutral guide |
