@@ -1,8 +1,10 @@
 # Dublin Core Metadata Usage in SAT
 
-Version: 0.1.1
-Status: Draft
-Style Guide: web-ready-unrendered-markdown-using-apa-7-v0.2.0.md
+ Version: 0.1.2
+ Status: Draft
++Ring: adopt
++Category: architecture
+ Style Guide: web-ready-unrendered-markdown-using-apa-7-v0.2.0.md
 
 ---
 
@@ -154,13 +156,27 @@ dcterms:created: "2026-06-14"
 
 SAT defines the following local extensions beyond the Dublin Core standard. These use the `sat:` prefix and are not interoperable with external Dublin Core consumers without documentation:
 
-| SAT key | Purpose |
-|---------|---------|
-| `dc:language_bcp47` | Full BCP 47 tag where ISO 639-2 is insufficient |
-| `sat:authority` | IANA registry validation result (`external`, `partial`, `none`) |
-| `sat:authority_note` | Human-readable note on non-standard language expressions |
+| Version | Status | Notes |
+ |---------|--------|-------|
++| 0.1.2 | Adopted | Promoted from assess to adopt. Namespace decision (dc: for MVP) confirmed as settled. Status notes added recording rationale and pointer to pending ADR correcting the versioned-documents guide. |
+ | 0.1.1 | Draft | birth/born vocabulary replaced by creation/provenance per ADR-020 |
+ | 0.1.0 | Draft | Initial draft — namespace decision, agent properties, type, format, language, rights, date, local extensions |
 
----
+## Status notes
+
+- Last reviewed: 2026-07-28
+- Promoted from `assess` to `adopt`. The namespace decision in
+  section 1.2 is confirmed: `dc:` throughout for the MVP, on the
+  grounds that SAT metadata is YAML, not RDF, and `dcterms:`'s
+  domains, ranges, and URI-valued properties carry no meaning in a
+  YAML key-value context. This document is the authoritative
+  reference for that decision; the versioned-documents guide
+  (v0.3.0), which currently states the opposite, is out of sync
+  and pending correction under a forthcoming ADR.
+- Companion assessment: `1b-sat-dublin-core-metadata-usage...` audits
+  current SAT files against this spec. Its resolved findings are
+  folded in above (see 1.3, table); its three remaining open items
+  are tracked on the UC Kanban backlog (tag `sat`), not here.
 
 ## Resources
 
