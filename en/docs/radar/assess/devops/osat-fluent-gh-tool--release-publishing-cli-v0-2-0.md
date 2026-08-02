@@ -1,6 +1,6 @@
 ---
 dcterms:title: "osat-fluent-gh-tool, a Fluent Release-Publishing CLI over gh"
-dcterms:version: "0.1.0"
+dcterms:version: "0.2.0"
 dcterms:creator: "Christopher Steel"
 dcterms:contributor: "Claude Fable 5 (Anthropic)"
 dcterms:subject:
@@ -30,6 +30,10 @@ sat:path: "en/docs/radar/assess/devops/"
 sat:version_at_creation: "0.3.1"
 sat:migration_status: pre-sat
 sat:changelog:
+  - version: "0.2.0"
+    date: "2026-08-02"
+    author: "Christopher Steel, Claude Fable 5 (Anthropic)"
+    notes: "The fork is resolved: per decision--publish-release-shared-script-with-provider-interface, the capability proceeds as the shared script publish-release.py; the standalone-tool form is parked behind the four flip conditions. The script's first real publish (sat-doc-automa v0.1.4, 2026-08-02) carried both security gates to Verified. Status notes updated; the evaluation body is retained unchanged as the record of the standalone form."
   - version: "0.1.0"
     date: "2026-08-02"
     author: "Christopher Steel, Claude Fable 5 (Anthropic)"
@@ -225,7 +229,8 @@ Dev toolchain tier, release-side only. It is the publishing half of the pattern 
 ## Status notes
 
 - Last reviewed: 2026-08-02
-- In assess: two things move it forward. First, the fork decision: standalone fluent tool versus a shared `publish-release.py` distributed by file-fairy; the entry deliberately does not pre-empt this, and the lighter form should win unless the ceremony proves to need installation, self-update, or per-platform wrapper conventions. Second, on either form, a working implementation exercised against a real release of at least one repository, with the token-handling and tarball-determinism gates carrying Verified tags. What would move it to hold: deciding hand-run `gh` commands documented in the commit-and-versioning workflow are sufficient ceremony for the fleet's release volume.
+- Resolution, 2026-08-02: the fork is decided. Per decision--publish-release-shared-script-with-provider-interface (sat-doc-automa, decisions/devops/), the capability proceeds as the shared script publish-release.py, distributed by file-fairy; this standalone-tool form is parked behind the four flip conditions recorded there. The script published its first real release, sat-doc-automa v0.1.4, on 2026-08-02: the token gate is Verified by construction and inspection, and the determinism gate is Verified by the 20-check suite and self-checked on every run. This entry stays in assess as the parked record of the standalone form; a fluent gh-binary acquirer, if the fourth flip condition ever triggers, is a new entry, not this one.
+- In assess (as originally written): two things move it forward. First, the fork decision: standalone fluent tool versus a shared `publish-release.py` distributed by file-fairy; the entry deliberately does not pre-empt this, and the lighter form should win unless the ceremony proves to need installation, self-update, or per-platform wrapper conventions. Second, on either form, a working implementation exercised against a real release of at least one repository, with the token-handling and tarball-determinism gates carrying Verified tags. What would move it to hold: deciding hand-run `gh` commands documented in the commit-and-versioning workflow are sufficient ceremony for the fleet's release volume.
 - In trial: not applicable yet.
 - In adopt: a standalone tool repository (osat-fluent-gh-tool) or, on the script fork, a devops-scripts group entry in the sync manifests.
 - In hold: nothing yet.
@@ -246,4 +251,5 @@ This document, *osat-fluent-gh-tool, a Fluent Release-Publishing CLI over gh*, b
 
 | Version | Status | Notes |
 |---------|--------|-------|
+| 0.2.0 | Draft | Fork resolved: capability proceeds as the shared script per the publish-release decision record; standalone form parked behind the flip conditions. First real publish (sat-doc-automa v0.1.4) carried both security gates to Verified. |
 | 0.1.0 | Draft | Initial entry, pre-implementation. UC evaluation against metrics v0.3.1, all ratings Inferred or Claimed. Records the tool-versus-shared-script fork as the decision gating trial. |

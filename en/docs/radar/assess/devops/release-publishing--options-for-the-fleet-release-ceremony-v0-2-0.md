@@ -1,6 +1,6 @@
 ---
 dcterms:title: "Release Publishing, Options for the Fleet Release Ceremony"
-dcterms:version: "0.1.0"
+dcterms:version: "0.2.0"
 dcterms:creator: "Christopher Steel"
 dcterms:contributor: "Claude Fable 5 (Anthropic)"
 dcterms:subject:
@@ -30,6 +30,10 @@ sat:path: "en/docs/radar/assess/devops/"
 sat:version_at_creation: "0.3.1"
 sat:migration_status: pre-sat
 sat:changelog:
+  - version: "0.2.0"
+    date: "2026-08-02"
+    author: "Christopher Steel, Claude Fable 5 (Anthropic)"
+    notes: "Resolved. The human decision adopted Form B, recorded in decision--publish-release-shared-script-with-provider-interface. publish-release.py implemented with a provider seam (gh and dir backends), 20-check offline suite passing, and the first real publish, sat-doc-automa v0.1.4, completed on 2026-08-02 with both security gates Verified. Standard citation updated to 0.4.0."
   - version: "0.1.0"
     date: "2026-08-02"
     author: "Christopher Steel, Claude Fable 5 (Anthropic)"
@@ -118,7 +122,8 @@ Dev toolchain tier, release-side. Form B slots `publish-release.py` into the exi
 ## Status notes
 
 - Last reviewed: 2026-08-02
-- In assess: the automated pass recommends Form B. What moves this comparison to resolved is a human decision recording Form B (or otherwise) in a decision record in sat-doc-automa, per the fleet's convention that decisions live as decision documents, followed by implementation: the script written, distributed via the manifests, and exercised against one real release with the two Security gates carrying Verified tags.
+- Resolved, 2026-08-02: Form B adopted by human decision, recorded in decision--publish-release-shared-script-with-provider-interface (sat-doc-automa, decisions/devops/). publish-release.py is implemented beside its three siblings with a provider seam, gh and dir backends, and a 20-check offline suite; the first real publish, sat-doc-automa v0.1.4, ran the same day, carrying the token and determinism gates to Verified. The flip conditions live on in the decision record and the parked standalone entry.
+- In assess (as originally written): the automated pass recommends Form B. What moves this comparison to resolved is a human decision recording Form B (or otherwise) in a decision record in sat-doc-automa, per the fleet's convention that decisions live as decision documents, followed by implementation: the script written, distributed via the manifests, and exercised against one real release with the two Security gates carrying Verified tags.
 - In adopt: the decision record plus the script in sat-doc-automa's root beside its three siblings.
 - In hold: not applicable; this entry resolves a fork rather than tracking an external item.
 
@@ -128,7 +133,7 @@ Dev toolchain tier, release-side. Form B slots `publish-release.py` into the exi
 - `sat-doc-automa/en/docs/decisions/devops/decision--gh-cli-for-release-asset-publishing-v0-1-0.md`
 - `sat-doc-automa/ROADMAP.md`, Pending: GPG-sign SHA256SUMS for published release assets
 - `osat-fluent-restic-tool/README.md`, the fluent pattern's actual problem domain, for the decisive observation above
-- `sat-doc-automa/en/docs/standards/standard-repository-layout-v0-3-0.md`, the skeleton table Form B amends
+- `sat-doc-automa/en/docs/standards/standard-repository-layout-v0-4-0.md`, the skeleton table Form B amends
 
 ## License
 
@@ -138,4 +143,5 @@ This document, *Release Publishing, Options for the Fleet Release Ceremony*, by 
 
 | Version | Status | Notes |
 |---------|--------|-------|
+| 0.2.0 | Draft | Resolved: Form B adopted per the publish-release decision record; script implemented and first real publish completed with gates Verified. |
 | 0.1.0 | Draft | Initial comparison of the three ceremony forms. Automated recommendation: the shared publish-release.py distributed by file-fairy, with four named flip conditions to the standalone-tool form. Human decision pending. |
