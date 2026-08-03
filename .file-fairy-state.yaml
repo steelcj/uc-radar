@@ -1,0 +1,109 @@
+synced:
+  bump-version.py:
+    source_sha256: 8c201161a91fb61cf7a30028ce4520c78648e4109408d5937df5a17433bd7361
+    dest_sha256: 8c201161a91fb61cf7a30028ce4520c78648e4109408d5937df5a17433bd7361
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-scripts
+    source: bump-version.py
+  cut-release.py:
+    source_sha256: aad0baa53d9b4d3b2d7784aef5f0b34cf209e6054333335ec9d3b01a1db2bc20
+    dest_sha256: aad0baa53d9b4d3b2d7784aef5f0b34cf209e6054333335ec9d3b01a1db2bc20
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-scripts
+    source: cut-release.py
+  check-conformance.py:
+    source_sha256: 01f051d1e877cd35bebae6bf973fc18760feb459384e20f6bfbdc680997246de
+    dest_sha256: 01f051d1e877cd35bebae6bf973fc18760feb459384e20f6bfbdc680997246de
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-scripts
+    source: check-conformance.py
+  publish-release.py:
+    source_sha256: f9f9bd19cee565f90f233d9968990de396ef0dfe054f865d16560286b7878659
+    dest_sha256: f9f9bd19cee565f90f233d9968990de396ef0dfe054f865d16560286b7878659
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-scripts
+    source: publish-release.py
+  test_publish_release.py:
+    source_sha256: 2193e9c8e69b7f700d9706a513428e84a663300cb36ef3f682bd8e629badf147
+    dest_sha256: 2193e9c8e69b7f700d9706a513428e84a663300cb36ef3f682bd8e629badf147
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-scripts
+    source: test_publish_release.py
+  en/docs/guides/devops/commit-and-versioning-workflow-v0-3-0.md:
+    source_sha256: d7a8764fd2b51842fb1408022656ffb99997d315a20ac7dd9284c031cc4a5d83
+    dest_sha256: d7a8764fd2b51842fb1408022656ffb99997d315a20ac7dd9284c031cc4a5d83
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-docs
+    source: en/docs/guides/devops/commit-and-versioning-workflow-v0-3-0.md
+  en/docs/guides/devops/file-fairy-usage-v0-1-1.md:
+    source_sha256: b7d4747c48f33c9b8c6bcf3266cc92dd3cb55cb37b10c78234d2ec2c506a6524
+    dest_sha256: b7d4747c48f33c9b8c6bcf3266cc92dd3cb55cb37b10c78234d2ec2c506a6524
+    synced_at: '2026-08-03T18:50:48Z'
+    group: devops-docs
+    source: en/docs/guides/devops/file-fairy-usage-v0-1-1.md
+  en/docs/automa/markdown/defaults/markdown--no-heading-numbers-v0-4-1.md:
+    source_sha256: 14a32726f818cec263a8c258b4ad653d3aac83067400499f881046fa98cc3a06
+    dest_sha256: 14a32726f818cec263a8c258b4ad653d3aac83067400499f881046fa98cc3a06
+    synced_at: '2026-08-03T18:50:48Z'
+    group: markdown-automa
+    source: en/docs/automa/markdown/defaults/markdown--no-heading-numbers-v0-4-1.md
+  en/docs/automa/markdown/defaults/markdown--no-horizontal-rules-v0-3-1.md:
+    source_sha256: c5051ca0665d05797ac8ac062dd5d95c9a6ce5adb956e735543dec5b828fdc73
+    dest_sha256: c5051ca0665d05797ac8ac062dd5d95c9a6ce5adb956e735543dec5b828fdc73
+    synced_at: '2026-08-03T18:50:48Z'
+    group: markdown-automa
+    source: en/docs/automa/markdown/defaults/markdown--no-horizontal-rules-v0-3-1.md
+  en/docs/automa/markdown/defaults/markdown--use-commas-not-em-dashes-v0-3-1.md:
+    source_sha256: 138b6a72dff7f2ad4eee3e671e84d8bf0ff2a7531548835d84124b3dc963da04
+    dest_sha256: 138b6a72dff7f2ad4eee3e671e84d8bf0ff2a7531548835d84124b3dc963da04
+    synced_at: '2026-08-03T18:50:48Z'
+    group: markdown-automa
+    source: en/docs/automa/markdown/defaults/markdown--use-commas-not-em-dashes-v0-3-1.md
+  en/docs/automa/markdown/defaults/markdown--no-hard-line-wraps-v0-1-0.md:
+    source_sha256: 7a1777abedd6b9d02054313a7dce767a30f32111adf21848b253614ce719efd8
+    dest_sha256: 7a1777abedd6b9d02054313a7dce767a30f32111adf21848b253614ce719efd8
+    synced_at: '2026-08-03T18:50:48Z'
+    group: markdown-automa
+    source: en/docs/automa/markdown/defaults/markdown--no-hard-line-wraps-v0-1-0.md
+  en/docs/automa/markdown/defaults/markdown--license-statement-templates-v0-3-1.md:
+    source_sha256: fdd80f7d8aeb485f9b571c9830c1ae3b30eb97525af9d3a7e47332c5f699a6c9
+    dest_sha256: fdd80f7d8aeb485f9b571c9830c1ae3b30eb97525af9d3a7e47332c5f699a6c9
+    synced_at: '2026-08-03T18:50:48Z'
+    group: markdown-automa
+    source: en/docs/automa/markdown/defaults/markdown--license-statement-templates-v0-3-1.md
+  en/docs/automa/markdown/defaults/markdown--apa-7-citations-using-citation-anchor-pairs-v0-1-0.md:
+    source_sha256: 8d176e2efe99ac9f484e0e186a0db1c2cea9f43bb47da51f1db14d4ef8f67e85
+    dest_sha256: 8d176e2efe99ac9f484e0e186a0db1c2cea9f43bb47da51f1db14d4ef8f67e85
+    synced_at: '2026-08-03T18:50:48Z'
+    group: markdown-automa
+    source: en/docs/automa/markdown/defaults/markdown--apa-7-citations-using-citation-anchor-pairs-v0-1-0.md
+  en/docs/automa/ai-collaboration/defaults/collaboration--energy-conservation-in-ai-collaborations-v0-2-0.md:
+    source_sha256: ccfaff4efeab653b9cb5ad13872370759b3ee85e814453f815ba7d15b8810e32
+    dest_sha256: ccfaff4efeab653b9cb5ad13872370759b3ee85e814453f815ba7d15b8810e32
+    synced_at: '2026-08-03T18:50:48Z'
+    group: ai-collaboration
+    source: en/docs/automa/ai-collaboration/defaults/collaboration--energy-conservation-in-ai-collaborations-v0-2-0.md
+  en/docs/automa/licenses/license-block--agpl-3-0-or-later.md:
+    source_sha256: 141f6ad437c8be613bde52c57658b0a525142efcc17d2c28c82b866ea065f137
+    dest_sha256: 141f6ad437c8be613bde52c57658b0a525142efcc17d2c28c82b866ea065f137
+    synced_at: '2026-08-03T18:50:48Z'
+    group: license-blocks
+    source: en/docs/automa/licenses/license-block--agpl-3-0-or-later.md
+  en/docs/automa/licenses/license-block--code-and-code-docs--gpl-3-0-or-later.md:
+    source_sha256: 43683b239d12fd370dd52fd91dd177173e4888babca23302460596eb4d404df4
+    dest_sha256: 43683b239d12fd370dd52fd91dd177173e4888babca23302460596eb4d404df4
+    synced_at: '2026-08-03T18:50:48Z'
+    group: license-blocks
+    source: en/docs/automa/licenses/license-block--code-and-code-docs--gpl-3-0-or-later.md
+  en/docs/automa/licenses/license-block--content-cc-by-4-0.md:
+    source_sha256: 58ad7aceb951cbf77fbe5ca3a0fc31eb18620c02a578e08aba8c7f4739df7447
+    dest_sha256: 58ad7aceb951cbf77fbe5ca3a0fc31eb18620c02a578e08aba8c7f4739df7447
+    synced_at: '2026-08-03T18:50:48Z'
+    group: license-blocks
+    source: en/docs/automa/licenses/license-block--content-cc-by-4-0.md
+  CLAUDE.md:
+    source_sha256: 82d1931cc9d9c23c98d490b5a1c1194b814df23286549800870c94d5b26056d9
+    dest_sha256: 82d1931cc9d9c23c98d490b5a1c1194b814df23286549800870c94d5b26056d9
+    synced_at: '2026-08-03T18:50:48Z'
+    group: claude-md
+    source: en/docs/automa/claude-md/claude-md-signpost-block.md
