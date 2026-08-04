@@ -1,26 +1,26 @@
 ---
-dcterms:title: "CNCF Project Maturity Levels"
+dc:title: "CNCF Project Maturity Levels"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "reference"
   - "cncf"
   - "governance"
   - "open-source"
-dcterms:description: "Reference document explaining the Cloud Native Computing Foundation's three project maturity levels, for use when evaluating CNCF-hosted tools on the uc-radar."
-dcterms:publisher: "UniversalCake"
+dc:description: "Reference document explaining the Cloud Native Computing Foundation's three project maturity levels, for use when evaluating CNCF-hosted tools on the uc-radar."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-25"
 dcterms:modified: "2026-07-25"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: "https://www.cncf.io/projects/"
-dcterms:relation: ""
-dcterms:identifier: "cncf-project-maturity-levels"
+dc:source: "https://www.cncf.io/projects/"
+dc:relation: ""
+dc:identifier: "cncf-project-maturity-levels"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

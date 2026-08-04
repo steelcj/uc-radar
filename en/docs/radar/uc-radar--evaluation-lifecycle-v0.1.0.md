@@ -1,26 +1,26 @@
 ---
-dcterms:title: "UC Radar Evaluation Lifecycle"
+dc:title: "UC Radar Evaluation Lifecycle"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "radar"
   - "evaluation"
   - "lifecycle"
   - "governance"
-dcterms:description: "Defines the uc-radar evaluation lifecycle, its states and transitions, and the uc-radar_evaluation front matter block used to record automated and human evaluation passes against a radar entry."
-dcterms:publisher: "UniversalCake"
+dc:description: "Defines the uc-radar evaluation lifecycle, its states and transitions, and the uc-radar_evaluation front matter block used to record automated and human evaluation passes against a radar entry."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-24"
 dcterms:modified: "2026-07-24"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "uc-radar-entry-template"
-dcterms:identifier: "uc-radar--evaluation-lifecycle"
+dc:source: ""
+dc:relation: "uc-radar-entry-template"
+dc:identifier: "uc-radar--evaluation-lifecycle"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

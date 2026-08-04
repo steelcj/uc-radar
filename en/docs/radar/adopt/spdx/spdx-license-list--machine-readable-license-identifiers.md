@@ -1,28 +1,28 @@
 ---
-dcterms:title: "SPDX License List, Machine-Readable License Identifiers"
+dc:title: "SPDX License List, Machine-Readable License Identifiers"
 dcterms:version: "0.2.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "radar"
   - "spdx"
   - "licensing"
   - "standards"
   - "compliance"
   - "data-source"
-dcterms:description: "Radar entry assessing the SPDX License List as a machine-readable data source for SAT to download locally, cache, and validate licence identifiers in document front matter against, following the same pattern SAT uses for language standards."
-dcterms:publisher: "UniversalCake"
+dc:description: "Radar entry assessing the SPDX License List as a machine-readable data source for SAT to download locally, cache, and validate licence identifiers in document front matter against, following the same pattern SAT uses for language standards."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-25"
 dcterms:modified: "2026-07-25"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: "https://spdx.org/licenses/"
-dcterms:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, uc-radar--evaluation-lifecycle"
-dcterms:identifier: "spdx-license-list--machine-readable-license-identifiers"
+dc:source: "https://spdx.org/licenses/"
+dc:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, uc-radar--evaluation-lifecycle"
+dc:identifier: "spdx-license-list--machine-readable-license-identifiers"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

@@ -1,17 +1,17 @@
 ---
-dcterms:title: "Recommendation: Use a CLAUDE.md File"
+dc:title: "Recommendation: Use a CLAUDE.md File"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic) — drafting assistance"
-dcterms:description: "Recommends adding a small CLAUDE.md signpost file to sat-doc-automa and to every project it feeds, so AI work sessions load the standing automa directives automatically instead of depending on a person to point to them."
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic) — drafting assistance"
+dc:description: "Recommends adding a small CLAUDE.md signpost file to sat-doc-automa and to every project it feeds, so AI work sessions load the standing automa directives automatically instead of depending on a person to point to them."
 dcterms:created: "2026-08-02"
 dcterms:modified: "2026-08-02"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:identifier: "recommendation--use-a-claude-md-file"
+dc:identifier: "recommendation--use-a-claude-md-file"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

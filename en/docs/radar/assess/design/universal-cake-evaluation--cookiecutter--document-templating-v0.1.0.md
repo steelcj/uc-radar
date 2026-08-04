@@ -1,25 +1,25 @@
 ---
-dcterms:title: "Universal Cake Evaluation, Cookiecutter, Document Templating and Multi Project Sync"
+dc:title: "Universal Cake Evaluation, Cookiecutter, Document Templating and Multi Project Sync"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude Sonnet 4.6 (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude Sonnet 4.6 (Anthropic)"
+dc:subject:
   - "evaluation"
   - "templating"
   - "documentation tooling"
-dcterms:description: "Evaluation of Cookiecutter, and its companion tool cruft, against the Universal Cake Evaluation Metrics v0.3.0, scoped to keeping shared documents synchronized across every project that includes them."
-dcterms:publisher: "UniversalCake"
+dc:description: "Evaluation of Cookiecutter, and its companion tool cruft, against the Universal Cake Evaluation Metrics v0.3.0, scoped to keeping shared documents synchronized across every project that includes them."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-22"
 dcterms:modified: "2026-07-22"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "sat-radar--cookiecutter--document-templating"
-dcterms:identifier: "universal-cake-evaluation--cookiecutter--document-templating"
+dc:source: ""
+dc:relation: "sat-radar--cookiecutter--document-templating"
+dc:identifier: "universal-cake-evaluation--cookiecutter--document-templating"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

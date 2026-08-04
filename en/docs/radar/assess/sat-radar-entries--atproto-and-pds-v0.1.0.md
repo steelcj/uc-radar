@@ -1,26 +1,26 @@
 ---
-dcterms:title: "SAT Radar Entries -- AT Protocol and Personal Data Server Self-Hosting"
+dc:title: "SAT Radar Entries -- AT Protocol and Personal Data Server Self-Hosting"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "SAT radar"
   - "AT Protocol"
   - "Personal Data Server"
   - "evaluation"
-dcterms:description: "Short radar-entry stubs for the AT Protocol and PDS self-hosting evaluations, in a stub format designed to complement universal-cake-evaluation-metrics-v0.3.0."
-dcterms:publisher: "UniversalCake"
+dc:description: "Short radar-entry stubs for the AT Protocol and PDS self-hosting evaluations, in a stub format designed to complement universal-cake-evaluation-metrics-v0.3.0."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-17"
 dcterms:modified: "2026-07-17"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "universal-cake-evaluation-metrics-v0.3.0"
-dcterms:identifier: "sat-radar-entries--atproto-and-pds"
+dc:source: ""
+dc:relation: "universal-cake-evaluation-metrics-v0.3.0"
+dc:identifier: "sat-radar-entries--atproto-and-pds"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

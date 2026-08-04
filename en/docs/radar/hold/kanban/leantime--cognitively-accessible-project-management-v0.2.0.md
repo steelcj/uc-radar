@@ -1,9 +1,9 @@
 ---
-dcterms:title: "Leantime, Cognitively Accessible Project Management"
+dc:title: "Leantime, Cognitively Accessible Project Management"
 dcterms:version: "0.2.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "radar"
   - "leantime"
   - "kanban"
@@ -11,19 +11,19 @@ dcterms:subject:
   - "accessibility"
   - "cognitive-accessibility"
   - "neurodiversity"
-dcterms:description: "Radar entry assessing Leantime, an AGPL-3.0-licensed project management platform designed for cognitive accessibility, with ADHD, autism, and dyslexia as first-class design constraints. Full evaluation against Universal Cake Evaluation Metrics v0.3.1. Moved to hold, WeKan adopted for the current need."
-dcterms:publisher: "UniversalCake"
+dc:description: "Radar entry assessing Leantime, an AGPL-3.0-licensed project management platform designed for cognitive accessibility, with ADHD, autism, and dyslexia as first-class design constraints. Full evaluation against Universal Cake Evaluation Metrics v0.3.1. Moved to hold, WeKan adopted for the current need."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-25"
 dcterms:modified: "2026-07-25"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: "https://leantime.io/"
-dcterms:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, uc-radar--evaluation-lifecycle, wekan--accessible-kanban-board"
-dcterms:identifier: "leantime--cognitively-accessible-project-management"
+dc:source: "https://leantime.io/"
+dc:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, uc-radar--evaluation-lifecycle, wekan--accessible-kanban-board"
+dc:identifier: "leantime--cognitively-accessible-project-management"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

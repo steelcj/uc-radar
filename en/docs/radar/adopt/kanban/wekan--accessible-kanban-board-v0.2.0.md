@@ -1,28 +1,28 @@
 ---
-dcterms:title: "WeKan, Accessible Kanban Board"
+dc:title: "WeKan, Accessible Kanban Board"
 dcterms:version: "0.2.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "radar"
   - "wekan"
   - "kanban"
   - "project-management"
   - "accessibility"
   - "wcag"
-dcterms:description: "Radar entry assessing WeKan, an MIT-licensed self-hosted Kanban board with WCAG 2.1 AA accessibility, keyboard-driven card reordering without drag-and-drop, export to JSON/CSV/TSV/Excel/PDF, and a standalone bundle requiring no container runtime."
-dcterms:publisher: "UniversalCake"
+dc:description: "Radar entry assessing WeKan, an MIT-licensed self-hosted Kanban board with WCAG 2.1 AA accessibility, keyboard-driven card reordering without drag-and-drop, export to JSON/CSV/TSV/Excel/PDF, and a standalone bundle requiring no container runtime."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-25"
 dcterms:modified: "2026-07-25"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: "https://github.com/wekan/wekan"
-dcterms:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, uc-radar--evaluation-lifecycle, leantime--cognitively-accessible-project-management"
-dcterms:identifier: "wekan--accessible-kanban-board"
+dc:source: "https://github.com/wekan/wekan"
+dc:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, uc-radar--evaluation-lifecycle, leantime--cognitively-accessible-project-management"
+dc:identifier: "wekan--accessible-kanban-board"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

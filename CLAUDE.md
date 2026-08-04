@@ -1,3 +1,4 @@
+<!-- fairy:begin claude-md-signpost -->
 # CLAUDE.md
 
 This repository governs its documents with standing rules, called automa. An automa is followed exactly, every time, by whoever picks it up, human or AI.
@@ -19,7 +20,7 @@ Read this before starting any work.
 
 ## Attribution
 
-- Record AI assistance in `dcterms:contributor` using the form "Name (Organization)".
+- Record AI assistance in `dc:contributor` using the form "Name (Organization)".
 - Transcribe what is true. Never invent it. Leave the field out entirely when no AI helped.
 
 ## Versioning
@@ -30,3 +31,4 @@ Read this before starting any work.
 ## If this file and a rule disagree
 
 The rule document wins. This file is a signpost, not the law. If it points the wrong way, fix this file.
+<!-- fairy:end claude-md-signpost -->

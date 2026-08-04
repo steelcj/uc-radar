@@ -1,26 +1,26 @@
 ---
-dcterms:title: "Universal Cake Evaluation, Fluid Infusion, Web Framework and Accessibility Bar"
+dc:title: "Universal Cake Evaluation, Fluid Infusion, Web Framework and Accessibility Bar"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "evaluation"
   - "accessibility"
   - "inclusive design"
   - "web framework"
-dcterms:description: "Best effort evaluation of Fluid Infusion 4.8.0 against the Universal Cake Evaluation Metrics, based on direct inspection of the source repository."
-dcterms:publisher: "UniversalCake"
+dc:description: "Best effort evaluation of Fluid Infusion 4.8.0 against the Universal Cake Evaluation Metrics, based on direct inspection of the source repository."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-15"
 dcterms:modified: "2026-07-15"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: "https://github.com/fluid-project/infusion"
-dcterms:relation: "sat-radar--infusion--accessibility-bar-v0.1.0"
-dcterms:identifier: "universal-cake-evaluation--infusion--accessibility-bar"
+dc:source: "https://github.com/fluid-project/infusion"
+dc:relation: "sat-radar--infusion--accessibility-bar-v0.1.0"
+dc:identifier: "universal-cake-evaluation--infusion--accessibility-bar"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

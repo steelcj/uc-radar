@@ -1,16 +1,16 @@
 ---
-dcterms:title: "Style Guide: Versioned Documents in Unrendered Markdown"
+dc:title: "Style Guide: Versioned Documents in Unrendered Markdown"
 dcterms:version: "0.3.0"
-dcterms:creator: "Christopher Steel"
-dcterms:description: "Conventions for creating versioned documents in SAT using unrendered markdown: filename patterns, frontmatter schema, document structure, and prose authoring rules. Authoritative for structure and naming across the repository's guides."
+dc:creator: "Christopher Steel"
+dc:description: "Conventions for creating versioned documents in SAT using unrendered markdown: filename patterns, frontmatter schema, document structure, and prose authoring rules. Authoritative for structure and naming across the repository's guides."
 dcterms:created: "2026-07-21"
 dcterms:modified: "2026-07-25"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:identifier: "style-guide--versioned-documents-in-unrendered-markdown"
+dc:identifier: "style-guide--versioned-documents-in-unrendered-markdown"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

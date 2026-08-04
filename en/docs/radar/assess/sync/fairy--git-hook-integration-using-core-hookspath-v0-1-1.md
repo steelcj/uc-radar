@@ -1,16 +1,16 @@
 ---
-dcterms:title: "Fairy: Git Hook Integration Using core.hooksPath"
+dc:title: "Fairy: Git Hook Integration Using core.hooksPath"
 dcterms:version: "0.1.1"
-dcterms:creator: "Christopher Steel"
-dcterms:description: "Recommends git's core.hooksPath over an npm- or pip-based hook manager for activating Fairy's optional post-commit integration, with the decision rationale, an install-hook design, and citations."
+dc:creator: "Christopher Steel"
+dc:description: "Recommends git's core.hooksPath over an npm- or pip-based hook manager for activating Fairy's optional post-commit integration, with the decision rationale, an install-hook design, and citations."
 dcterms:created: "2026-07-28"
 dcterms:modified: "2026-07-28"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:identifier: "fairy--git-hook-integration-using-core-hookspath"
+dc:identifier: "fairy--git-hook-integration-using-core-hookspath"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

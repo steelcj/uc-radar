@@ -1,22 +1,22 @@
 ---
-dcterms:title: "Dependency Declaration Strategy: Universal Cake Praxis Evaluation"
+dc:title: "Dependency Declaration Strategy: Universal Cake Praxis Evaluation"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "evaluation"
   - "metrics"
   - "dependencies"
   - "dev-toolchain"
-dcterms:description: "A universal-cake praxis evaluation of the layered, co-located requirements strategy, scored against the universal-cake evaluation metrics v0.3.1 scorecard."
+dc:description: "A universal-cake praxis evaluation of the layered, co-located requirements strategy, scored against the universal-cake evaluation metrics v0.3.1 scorecard."
 dcterms:created: "2026-08-02"
 dcterms:modified: "2026-08-02"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:identifier: "dependency-declaration-strategy--universal-cake-praxis-evaluation"
+dc:identifier: "dependency-declaration-strategy--universal-cake-praxis-evaluation"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

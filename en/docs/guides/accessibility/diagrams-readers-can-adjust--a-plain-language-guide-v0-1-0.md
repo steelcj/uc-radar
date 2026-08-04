@@ -1,16 +1,16 @@
 ---
-dcterms:title: "Diagrams Readers Can Adjust: A Plain Language Guide"
+dc:title: "Diagrams Readers Can Adjust: A Plain Language Guide"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:description: "A plain language guide to building diagrams that each reader can change: colour, size, typeface, language, movement, and layout."
+dc:creator: "Christopher Steel"
+dc:description: "A plain language guide to building diagrams that each reader can change: colour, size, typeface, language, movement, and layout."
 dcterms:created: "2026-07-26"
 dcterms:modified: "2026-07-26"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:identifier: "diagrams-readers-can-adjust--a-plain-language-guide"
+dc:identifier: "diagrams-readers-can-adjust--a-plain-language-guide"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

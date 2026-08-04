@@ -1,27 +1,27 @@
 ---
-dcterms:title: "osat-fluent-gh-tool, a Fluent Release-Publishing CLI over gh"
+dc:title: "osat-fluent-gh-tool, a Fluent Release-Publishing CLI over gh"
 dcterms:version: "0.2.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude Fable 5 (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude Fable 5 (Anthropic)"
+dc:subject:
   - "radar"
   - "devops"
   - "release-publishing"
   - "gh"
   - "tooling"
-dcterms:description: "Radar entry and Universal Cake evaluation for a proposed osat-fluent tool wrapping the GitHub CLI (gh) for the fleet's release-publishing ceremony: Release creation, tarball and SHA256SUMS upload, and the deferred GPG-signing items, one answer across repositories instead of per-repo drift."
-dcterms:publisher: "UniversalCake"
+dc:description: "Radar entry and Universal Cake evaluation for a proposed osat-fluent tool wrapping the GitHub CLI (gh) for the fleet's release-publishing ceremony: Release creation, tarball and SHA256SUMS upload, and the deferred GPG-signing items, one answer across repositories instead of per-repo drift."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-08-02"
 dcterms:modified: "2026-08-02"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, decision--gh-cli-for-release-asset-publishing, fairy--file-sync-cli"
-dcterms:identifier: "osat-fluent-gh-tool--release-publishing-cli"
+dc:source: ""
+dc:relation: "uc-radar-entry-template, universal-cake-evaluation-metrics, decision--gh-cli-for-release-asset-publishing, fairy--file-sync-cli"
+dc:identifier: "osat-fluent-gh-tool--release-publishing-cli"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

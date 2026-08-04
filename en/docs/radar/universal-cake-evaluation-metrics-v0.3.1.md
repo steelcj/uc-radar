@@ -1,28 +1,28 @@
 ---
-dcterms:title: "Universal Cake Evaluation Metrics"
+dc:title: "Universal Cake Evaluation Metrics"
 dcterms:version: "0.3.1"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "evaluation"
   - "metrics"
   - "inclusive design"
   - "agency"
   - "wellbeing"
   - "power imbalances"
-dcterms:description: "Evaluation metrics for products, services, and approaches. The goal is to support more people in better ways that support wellbeing, so that applications and services built with Universal Cake reflect these foundations in their product and design cycles."
-dcterms:publisher: "UniversalCake"
+dc:description: "Evaluation metrics for products, services, and approaches. The goal is to support more people in better ways that support wellbeing, so that applications and services built with Universal Cake reflect these foundations in their product and design cycles."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-15"
 dcterms:modified: "2026-07-17"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "sat-radar-entry-template"
-dcterms:identifier: "universal-cake-evaluation-metrics"
+dc:source: ""
+dc:relation: "sat-radar-entry-template"
+dc:identifier: "universal-cake-evaluation-metrics"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

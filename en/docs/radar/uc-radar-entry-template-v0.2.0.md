@@ -1,25 +1,25 @@
 ---
-dcterms:title: "UC Radar Entry Template"
+dc:title: "UC Radar Entry Template"
 dcterms:version: "0.2.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "radar"
   - "documentation"
   - "template"
-dcterms:description: "Markdown template for creating new uc-radar entries, structured around the Universal Cake Evaluation Metrics."
-dcterms:publisher: "UniversalCake"
+dc:description: "Markdown template for creating new uc-radar entries, structured around the Universal Cake Evaluation Metrics."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-24"
 dcterms:modified: "2026-07-24"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "uc-radar--evaluation-lifecycle, universal-cake-evaluation-metrics"
-dcterms:identifier: "uc-radar-entry-template"
+dc:source: ""
+dc:relation: "uc-radar--evaluation-lifecycle, universal-cake-evaluation-metrics"
+dc:identifier: "uc-radar-entry-template"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

@@ -1,28 +1,28 @@
 ---
-dcterms:title: "AT Protocol & Personal Data Servers -- Universal Cake Praxis Evaluation"
+dc:title: "AT Protocol & Personal Data Servers -- Universal Cake Praxis Evaluation"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude (Anthropic)"
+dc:subject:
   - "evaluation"
   - "AT Protocol"
   - "atproto"
   - "Personal Data Server"
   - "decentralization"
   - "power imbalances"
-dcterms:description: "A Universal Cake praxis evaluation of the AT Protocol and Personal Data Server (PDS) self-hosting model, scored against universal-cake-evaluation-metrics-v0.2.0 and enriched with the technological-power-imbalances measurement proxies."
-dcterms:publisher: "UniversalCake"
+dc:description: "A Universal Cake praxis evaluation of the AT Protocol and Personal Data Server (PDS) self-hosting model, scored against universal-cake-evaluation-metrics-v0.2.0 and enriched with the technological-power-imbalances measurement proxies."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-07-17"
 dcterms:modified: "2026-07-17"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "universal-cake-evaluation-metrics-v0.2.0"
-dcterms:identifier: "atproto--universal-cake-praxis-evaluation"
+dc:source: ""
+dc:relation: "universal-cake-evaluation-metrics-v0.2.0"
+dc:identifier: "atproto--universal-cake-praxis-evaluation"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

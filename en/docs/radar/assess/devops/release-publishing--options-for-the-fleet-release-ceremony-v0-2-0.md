@@ -1,27 +1,27 @@
 ---
-dcterms:title: "Release Publishing, Options for the Fleet Release Ceremony"
+dc:title: "Release Publishing, Options for the Fleet Release Ceremony"
 dcterms:version: "0.2.0"
-dcterms:creator: "Christopher Steel"
-dcterms:contributor: "Claude Fable 5 (Anthropic)"
-dcterms:subject:
+dc:creator: "Christopher Steel"
+dc:contributor: "Claude Fable 5 (Anthropic)"
+dc:subject:
   - "radar"
   - "devops"
   - "release-publishing"
   - "gh"
   - "file-fairy"
-dcterms:description: "Comparative evaluation of the three forms the fleet's release-publishing ceremony could take: hand-run gh commands, a shared publish-release.py distributed by file-fairy, or a standalone osat-fluent-gh-tool. Evaluates the differential against the osat-fluent-gh-tool radar entry's baseline and recommends the shared-script form with named conditions that would flip the decision."
-dcterms:publisher: "UniversalCake"
+dc:description: "Comparative evaluation of the three forms the fleet's release-publishing ceremony could take: hand-run gh commands, a shared publish-release.py distributed by file-fairy, or a standalone osat-fluent-gh-tool. Evaluates the differential against the osat-fluent-gh-tool radar entry's baseline and recommends the shared-script form with named conditions that would flip the decision."
+dc:publisher: "UniversalCake"
 dcterms:created: "2026-08-02"
 dcterms:modified: "2026-08-02"
-dcterms:type: "Text"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:type: "Text"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:source: ""
-dcterms:relation: "osat-fluent-gh-tool--release-publishing-cli, decision--gh-cli-for-release-asset-publishing, fairy--file-sync-cli, universal-cake-evaluation-metrics"
-dcterms:identifier: "release-publishing--options-for-the-fleet-release-ceremony"
+dc:source: ""
+dc:relation: "osat-fluent-gh-tool--release-publishing-cli, decision--gh-cli-for-release-asset-publishing, fairy--file-sync-cli, universal-cake-evaluation-metrics"
+dc:identifier: "release-publishing--options-for-the-fleet-release-ceremony"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel / UniversalCake.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""

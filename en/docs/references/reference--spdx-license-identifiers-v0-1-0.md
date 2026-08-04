@@ -1,16 +1,16 @@
 ---
-dcterms:title: "Reference: SPDX License Identifiers"
+dc:title: "Reference: SPDX License Identifiers"
 dcterms:version: "0.1.0"
-dcterms:creator: "Christopher Steel"
-dcterms:description: "Reference table of SPDX license identifiers in use or anticipated across sat-doc-automa and the projects that adopt its conventions."
+dc:creator: "Christopher Steel"
+dc:description: "Reference table of SPDX license identifiers in use or anticipated across sat-doc-automa and the projects that adopt its conventions."
 dcterms:created: "2026-07-25"
 dcterms:modified: "2026-07-25"
-dcterms:format: "text/markdown"
-dcterms:language: "en"
+dc:format: "text/markdown"
+dc:language: "en"
 sat:language_bcp47: "en"
-dcterms:identifier: "reference--spdx-license-identifiers"
+dc:identifier: "reference--spdx-license-identifiers"
 dcterms:rightsHolder: "Christopher Steel"
-dcterms:rights: >
+dc:rights: >
   Copyright 2026 Christopher Steel.
   SPDX-License-Identifier: AGPL-3.0-or-later
 sat:uuid: ""
