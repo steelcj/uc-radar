@@ -36,20 +36,20 @@ Where SAT uses refinements from the `dcterms:` namespace that have no `dc:` equi
 
 The following Dublin Core properties are used in SAT sidecars and metadata defaults:
 
-| SAT key | Namespace | DC label | Notes |
-|---------|-----------|----------|-------|
-| `dc:title` | dc: | Title | Required at archive creation |
-| `dc:creator` | dc: | Creator | Primary responsibility |
-| `dc:contributor` | dc: | Contributor | Secondary contributions |
-| `dc:publisher` | dc: | Publisher | Organization making resource available |
-| `dc:subject` | dc: | Subject | Keywords or classification |
-| `dc:description` | dc: | Description | Human-readable account |
-| `dc:date` | dc: | Date | ISO 8601 date |
-| `dc:type` | dc: | Type | From DCMI Type Vocabulary |
-| `dc:format` | dc: | Format | MIME type |
-| `dc:language` | dc: | Language | ISO 639-2 |
-| `dc:rights` | dc: | Rights | Rights statement or license URI |
-| `dcterms:created` | dcterms: | Created | ISO 8601 creation date — dcterms: refinement |
+|  | SAT key | Namespace | DC label | Notes |
+|---------|-----------|----------|-------|-------|
+| 1 | `dc:title` | dc: | Title | Required at archive creation |
+| 2 | `dc:creator` | dc: | Creator | Primary responsibility |
+| 3 | `dc:contributor` | dc: | Contributor | Secondary contributions |
+| 4 | `dc:publisher` | dc: | Publisher | Organization making resource available |
+| 5 | `dc:subject` | dc: | Subject | Keywords or classification |
+| 6 | `dc:description` | dc: | Description | Human-readable account |
+| 7 | `dc:date` | dc: | Date | ISO 8601 date |
+| 8 | `dc:type` | dc: | Type | From DCMI Type Vocabulary |
+| 9 | `dc:format` | dc: | Format | MIME type |
+| 10 | `dc:language` | dc: | Language | ISO 639-2 |
+| 11 | `dc:rights` | dc: | Rights | Rights statement or license URI |
+|  | `dcterms:created` | dcterms: | Created | ISO 8601 creation date — dcterms: refinement |
 
 ---
 

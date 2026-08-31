@@ -25,6 +25,10 @@ dc:rights: "TODO"
 
 # caddy--web-server
 
+Version: 0.1.1
+Status: Draft
+Style Guide: style-guide--technical-documentation-for-technologists
+
 ## What it is
 
 Caddy is an open-source web server and reverse proxy written in Go, maintained by the Caddy authors under Apache License 2.0. Its defining characteristic is automatic TLS certificate provisioning and renewal via ACME (Let's Encrypt and ZeroSSL by default), requiring no manual certificate management or cron jobs. Configuration is expressed in a single Caddyfile or via a JSON API. Current stable release: 2.11.2 (6 March 2026).

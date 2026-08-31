@@ -9,6 +9,14 @@
 
 A UUID (Universally Unique Identifier) can be represented using **Dublin Core Metadata Terms**, but neither Dublin Core Elements nor DCTERMS defines a dedicated `uuid` property.
 
+dc:identifier is one of the original Dublin Core Metadata Element Set elements. This is also a valid identifier with multiple values:
+
+```yaml
+dc:identifier:
+  - "550e8400-e29b-41d4-a716-446655440000"
+  - "my-document"
+```
+
 The appropriate Dublin Core property is:
 
 ```text
