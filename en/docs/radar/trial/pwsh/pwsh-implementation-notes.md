@@ -1,1 +1,12 @@
+I evaluated PowerShell 7 against your Universal Cake metrics for the use we actually need: `pwsh` on your Mint machine, purely to run the `.ps1` alias tests. It passes all four gates, with the telemetry gate conditional, and I recommend moving it from Assess to Trial as a development and test dependency, on four conditions.
 
+- **Telemetry is on by default.** It passes the gate because it can be switched off, with `POWERSHELL_TELEMETRY_OPTOUT`, plus `POWERSHELL_UPDATECHECK` for the daily update check. Both must be set before `pwsh` starts, so a profile script can't set them. I tagged the gate Claimed rather than Verified because of a long-running issue report about network contact after opting out. Watching the network during a test run would move it to Verified, and that belongs in the Trial.
+- **Governance is corporate.** Your metrics' reversibility test earns its keep here. The MIT licence allows forking, but the governance document says plainly that Microsoft owns the repository, can dissolve the PowerShell Committee, and appoints a maintainer with a veto. That's harmless for a test tool and would matter if the collection ever depended on PowerShell at run time. So the recommendation keeps `pwsh` out of every manager's run-time dependencies.
+- **Install it the OSAT way.** Microsoft's package repository would give its signing key authority over system packages. The release archive installs in user space with no elevation, like your managers do. The document includes an installation script that verifies the checksum and writes a `pwsh` alias with both opt-outs built in. I checked the script's syntax and tested its checksum extraction against the real 7.6.6 checksum file, but haven't run the install itself.
+- **Windows PowerShell 5.1 testing stays.** A pass under `pwsh` on Linux doesn't prove an alias works under the 5.1 most Windows users have, so the Windows VM check before each release remains.
+
+The checksum file is encoded as UTF-16 with Windows line endings, so `sha256sum --check` can't read it directly. The script converts it first.
+
+Several facts in the document were checked directly on 2026-09-29 rather than taken from secondary sources: the licence, the security policy, the governance document, the archive size and the checksum file format. The document follows your conventions and passes `check-conformance.py`.
+
+Your metrics are AGPL-licensed, so I licensed the evaluation the same way, assuming it will live beside them in the Universal Cake repository.
