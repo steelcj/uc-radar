@@ -44,8 +44,8 @@ sat:changelog:
       fallback; dugite-native moves to Hold. The conda-forge win-64
       package 2.56.0 was downloaded, its checksum matched against
       repodata, and its contents inspected on Linux; the four Windows
-      questions are restated against it. Corrected sat:path. No Windows
-      binary was run.
+      questions are restated against it, with the configuration design of
+      decision 0001. Corrected sat:path. No Windows binary was run.
   - version: "0.1.0"
     date: "2026-10-11"
     author: "Claude Opus 5.5 (Anthropic), drafted for Christopher Steel's review"
@@ -76,7 +76,7 @@ Style Guide: style-guide--technical-documentation-for-technologists
 
 ## Abstract
 
-This entry compares the ways to obtain Git on Windows, for two uses: as the Windows source for osat-manager-git, which installs Git into user space beside osat-manager-python, and as Git for client machines, where git-cola and other tools expect it. Version 0.1.0 recommended MinGit from Git for Windows releases. On 2026-10-21 Christopher Steel chose conda-forge's git package instead, on Windows as on Linux and macOS, so the manager has one source kind and one verification path. This version records that choice, the evidence behind it from the conda-forge Windows package itself, and what it costs. MinGit stays as the documented fallback. The standard installer remains the recommendation for client machines a person uses directly.
+This entry compares the ways to obtain Git on Windows, for two uses: as the Windows source for osat-manager-git, which installs Git into user space beside osat-manager-python, and as Git for client machines, where git-cola and other tools expect it. Version 0.1.0 recommended MinGit from Git for Windows releases. On 2026-10-21 Christopher Steel chose conda-forge's git package instead, on Windows as on Linux and macOS, so the manager has one source kind and one verification path. This version records that choice, the evidence behind it from the conda-forge Windows package itself, what it costs, and how osat-manager-git decision 0001 handles the package's system configuration. MinGit stays as the documented fallback. The standard installer remains the recommendation for client machines a person uses directly.
 
 ## Sources and Acknowledgements
 
@@ -86,7 +86,7 @@ On 2026-10-11, `MinGit-2.56.0.2-64-bit.zip` was downloaded, hashed, and unpacked
 
 ## Scope
 
-The subject is Git for Windows 2.56.0, in each of the forms it is offered, including conda-forge's repackaging. Git's own behaviour is out of scope. Linux and macOS are covered only as far as the source decision reaches them: the manager uses conda-forge's git there too, and dugite-native, the candidate this entry named in 0.1.0, is set aside. The mise-en-place entry covers how conda-forge packages are installed without conda on those platforms. Network behaviour and accessibility of the Windows builds were not tested, since nothing was run on Windows.
+The subject is Git for Windows 2.56.0, in each of the forms it is offered, including conda-forge's repackaging. Git's own behaviour is out of scope. Linux and macOS are covered only as far as the source decision reaches them: the manager uses conda-forge's git there too, and dugite-native, the candidate this entry named in 0.1.0, is set aside. The mise-en-place entry covers how conda-forge packages are installed without conda on those platforms. On 2026-10-21 mise 2026.10.17 locked `win-64` git with the SHA-256 given below, but could not solve `win-arm64`, which its conda backend does not map; `win-arm64` has no working reference implementation. Network behaviour and accessibility of the Windows builds were not tested, since nothing was run on Windows.
 
 ## The options
 
@@ -134,7 +134,7 @@ MinGit, by comparison, is one link shorter: a SHA-256 table in the release notes
 
 - **A longer chain.** conda-forge stands between Git for Windows and the user. A compromised or careless feedstock build would reach users who review only the lock.
 - **Lag.** The 2.56.0 package was built from `v2.56.0.windows.1`, while Git for Windows has since released `v2.56.0.windows.2`. Windows patch releases reach users only after the feedstock rebuilds and a new lock is reviewed.
-- **Size.** About 121 MB per archived version and 419 MB unpacked, against MinGit's 40 MB and 93 MB. The manager keeps a verified archive of each installed version, so this multiplies.
+- **Size.** About 121 MB per archived version and 419 MB unpacked, against MinGit's 40 MB and 93 MB. The manager keeps a verified archive of each installed version, so this multiplies. Size is not only a Windows cost: on Linux, mise installed the same git version as 26 packages, 55 MB downloaded and 255 MB installed, perl and icu among them (observed 2026-10-21).
 - **Long paths.** 9,612 files under `Library/`, some deep in `ucrt64/share/doc`. The manager unpacks below a short install root, since long-path support is not assumed.
 - **More than the manager needs.** Git Bash, Git GUI, gitk and tig come along. That is also an advantage for users who want Git Bash, which 0.1.0 would have served with an optional PortableGit variant.
 
@@ -142,12 +142,12 @@ MinGit, by comparison, is one link shorter: a SHA-256 table in the release notes
 
 0.1.0 listed four decisions MinGit needed before Adopt. The conda-forge package was inspected for each.
 
-- **Line endings.** `Library/etc/gitconfig` sets `core.autocrlf = true`, as MinGit does (verified). Decision 0001 makes the prefix's system configuration belong to the manager, and its proposed baseline sets `core.autocrlf = false`, with line endings governed by each repository's `.gitattributes`. Still to confirm: the baseline value itself.
+- **Line endings.** `Library/etc/gitconfig` sets `core.autocrlf = true`, as MinGit does (verified). Under decision 0001 the package's file stays as delivered, and the manager writes its own system configuration for each version, which includes the package's file and then sets the baseline, read by git through `GIT_CONFIG_SYSTEM`. The proposed baseline sets `core.autocrlf = false`, with line endings governed by each repository's `.gitattributes`. Still to confirm: the baseline value itself.
 - **Git LFS.** The same file declares the `lfs` filter with `required = true`. Unlike MinGit, the package ships `ucrt64/bin/git-lfs.exe` (verified), so an LFS checkout does not fail for want of the executable. On Linux and macOS, git-lfs is a separate conda-forge package (3.8.0 on every platform checked), so a git-lfs companion to manage-git is still wanted there.
-- **Inherited configuration.** MinGit's system configuration includes `C:/Program Files/Git/etc/gitconfig`. The conda-forge package's `Library/etc/gitconfig` has no include lines (verified). Git for Windows may still read machine-wide configuration from elsewhere, such as `C:\ProgramData\Git\config`; this was not tested. Decision 0001 says the manager never reads configuration from another installation, which an end-to-end run on Windows must confirm.
+- **Inherited configuration.** MinGit's system configuration includes `C:/Program Files/Git/etc/gitconfig`. The conda-forge package's `Library/etc/gitconfig` has no include lines (verified). Because the managed git reads the manager's file through `GIT_CONFIG_SYSTEM`, it does not read another installation's system file. Git for Windows may still read machine-wide configuration from `C:\ProgramData\Git\config`; whether `GIT_CONFIG_SYSTEM` suppresses that was not tested, and the Windows end-to-end run settles it.
 - **Paths.** The package keeps the 2.56 layout under `Library/ucrt64`, and its stable entry point is `Library\cmd\git.exe` (verified). Decision 0001 points aliases there.
 
-A fifth item surfaced in the inspection: the system configuration sets `credential.helper = helper-selector`, which asks the user to pick a helper through a dialog. The manager's baseline should name a helper, likely Git Credential Manager, which the package ships, so no dialog appears in unattended use.
+A fifth item surfaced in the inspection: the system configuration sets `credential.helper = helper-selector`, which asks the user to pick a helper through a dialog. `credential.helper` is a list, so the manager's file writes an empty value first, which clears the package's helper; this was verified with a stand-in helper and `git credential fill` on Linux. The baseline still has to name the helper, likely Git Credential Manager, which the package ships, so no dialog appears in unattended use.
 
 ## Older systems
 
@@ -251,5 +251,5 @@ This document, *Git on Windows, Options for osat-manager-git*, by **Christopher 
 
 | Version | Status | Notes |
 |---------|--------|-------|
-| 0.2.0 | Draft, version provisional | Follows the 2026-10-21 decision: conda-forge git for Trial as osat-manager-git's source on Windows, Linux and macOS; MinGit to Assess as fallback; dugite-native and PortableGit to Hold. Adds the conda-forge package's chain of custody, trade-offs, and the four Windows questions restated against it, plus the credential helper. Corrects `sat:path` |
+| 0.2.0 | Draft, version provisional | Follows the 2026-10-21 decision: conda-forge git for Trial as osat-manager-git's source on Windows, Linux and macOS; MinGit to Assess as fallback; dugite-native and PortableGit to Hold. Adds the conda-forge package's chain of custody, trade-offs including the Linux prefix's size, and the four Windows questions restated against it and against decision 0001's configuration design, plus the credential helper and the `win-arm64` gap. Corrects `sat:path` |
 | 0.1.0 | Draft, version provisional | Initial comparison of the Windows Git options. Automated recommendation: MinGit from Git for Windows releases for Trial as osat-manager-git's Windows source, with four conditions for Adopt and three flip conditions |
