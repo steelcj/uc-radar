@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- *Git on Windows, Options for osat-manager-git* 0.2.0 (provisional): conda-forge's git is now the recommended source for osat-manager-git on Windows, Linux and macOS, following the 2026-10-21 decision and osat-manager-git decision 0001. MinGit moves to Assess as the fallback; dugite-native moves to Hold.
+
 ## [0.2.4] - 2026-09-29
 
 - Added a number of assessments
