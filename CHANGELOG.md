@@ -9,10 +9,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - *Universal Cake Evaluation: mise-en-place* 0.1.1 (provisional): what running its conda backend on git showed, where mise acts beyond user space, and uc-automa 0034's use of mise. Ring unchanged, Assess.
+- A `trial/` ring, for optional real use in a limited, named scope, with its README and the *UC Radar Telemetry Trace Procedure* 0.1.1 (draft), with 0.1.0 beside it and a copy under `assess/telemetry/`
+- *UC Radar Evaluation Lifecycle* 0.2.0, *UC Radar Entry Template* 0.3.0 and *Universal Cake Evaluation Metrics* 0.6.0; the versions they replace, 0.1.0, 0.2.0 and 0.5.1, move to `radar/artifacts/`
+- Assess entries: Emacspeak, Jan, SimpleLogin, Fileverse dDocs, xkcdpass, OpenSnitch, OpenTelemetry 0.2.0 and 0.2.1, a production-ready droplet for multi-site Caddy and Eleventy, and two on Windows Recall
+- Personal FOSS stack notes under `assess/` for AI, browsers, documents, messengers, music, desktop operating systems, storage, VPNs and wallets, and an Incus Ansible role note
+- Two metrics examples under `en/docs/guides/metrics/examples/`
 
 ### Changed
 
 - *Git on Windows, Options for osat-manager-git* 0.2.0 (provisional): conda-forge's git is now the recommended source for osat-manager-git on Windows, Linux and macOS, following the 2026-10-21 decision and osat-manager-git decision 0001. MinGit moves to Assess as the fallback; dugite-native moves to Hold.
+- The radar README describes four rings, assess, trial, adopt and hold, for Universal Cake and its projects; the assess README sets out testing in assess and the criteria for leaving it
+- Incus entries move to `assess/containers/incus/`
 
 ## [0.2.4] - 2026-09-29
 

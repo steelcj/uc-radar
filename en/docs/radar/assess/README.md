@@ -1,27 +1,32 @@
 # Assessment Procedure
 
-This directory contains radar entries for tools that are interesting and
-worth keeping an eye on but have not yet been trialled in SAT.
+This directory contains radar entries under evaluation for Universal Cake and its projects, including SAT.
 
 ## What assess means
 
-A tool in assess/ has been identified as potentially useful for SAT but
-has not been tested against real SAT archives or integrated into the SAT
-toolchain. 
+An entry in assess/ is being evaluated against the current Universal Cake Evaluation Metrics. Assess asks what a product does. Evaluation here includes testing: hands-on checks on a disposable machine that turn Inferred or Claimed evidence into Verified. Testing is part of assess, not a separate ring.
 
-Do your own research before adopting any tool from this directory.
+Do your own research before relying on anything in this directory.
 
-## Before moving a tool from assess/
+## Testing in assess
 
-All of the following must be true:
+Test whatever the evaluation cannot verify by reading. At minimum that means the gates and the Security section. Record each test's method, platform, version, and date in the entry. Accepted methods so far:
 
-- [ ] Radar entry is complete with no empty sections
-- [ ] Security assessment has been completed and documented
-- [ ] Assessment status is `passed` or `partial` with known limitations noted
-- [ ] Licence is confirmed compatible with CC BY-SA 4.0
-- [ ] Tool has been installed and run against at least one SAT archive
-- [ ] A brief test report has been added to the status notes section
-- [ ] At least one team member has reviewed the entry
+- Network behaviour and content exposure: the [UC Radar Telemetry Trace Procedure](../trial/telemetry/uc-radar--telemetry-trace-procedure--draft-v0.1.1.md), in trial, to move to `uc-processes` once adopted.
+- File system behaviour: the commands under Security assessment procedure, below.
+- Accessibility, including text and terminal interfaces: a pass with a screen reader, or a terminal screen reader such as those being assessed under `accessibility/screenreaders/`.
+
+## Before moving an entry from assess/
+
+To trial or adopt, all of the following must be true:
+
+- [ ] Every gate criterion and the Security section carries a Verified tag, or a named person has recorded an override in the entry
+- [ ] The radar entry is complete with no empty sections
+- [ ] The licence is confirmed compatible with the adopting project, see Licence compatibility below
+- [ ] For SAT tools, the tool has been installed and run against at least one SAT archive, with a brief test report in the status notes
+- [ ] A human evaluation pass is recorded in the entry's `uc-radar_evaluation` block
+
+To hold or rejected, the reason must be stated in the status notes, and a failed gate given as the reason must itself be verified.
 
 ## Security assessment procedure
 
@@ -57,14 +62,14 @@ fs_usage <process-name>
 
 ### What to look for
 
-**Network — flag if any of these are found:**
+**Network, flag if any of these are found:**
 
 - Outbound connections during normal editing or use
 - Connections to analytics or telemetry endpoints
 - Connections other than explicit update checks that can be disabled
 - Any transmission of file paths, filenames, or content
 
-**File system — flag if any of these are found:**
+**File system, flag if any of these are found:**
 
 - Files created inside archive directories without user action
 - Content cached outside the working directory
@@ -72,7 +77,7 @@ fs_usage <process-name>
 
 ### Recording results
 
-Update the security assessment section of the radar entry with:
+Update the Security section of the radar entry with:
 
 - Tool version tested
 - Platform tested on
@@ -140,11 +145,11 @@ and well documented:
   helps you select the right CC licence for your needs
 
 **For software:**
-- [Choose a Licence](https://choosealicense.com) — maintained by GitHub,
+- [Choose a Licence](https://choosealicense.com), maintained by GitHub,
   clear plain-language explanations of the most common software licences
 
 **For open data:**
-- [Open Data Commons](https://opendatacommons.org/licenses/) — licences
+- [Open Data Commons](https://opendatacommons.org/licenses/), licences
   specifically designed for datasets and databases
 
 The only requirement SAT places on archive content licences is that they

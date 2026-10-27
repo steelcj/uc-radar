@@ -1,20 +1,21 @@
 # Radar
 
-The radar is a register of things under consideration for SAT — tools, protocols, apps, and techniques — before they settle into the documentation proper. It is a triage space, not a home. An entry sits on the radar only while its fate is undecided.
+The radar is a register of things under consideration for Universal Cake and its projects, including SAT: tools, protocols, apps, techniques, and processes, before they settle into the documentation proper. It is a triage space, not a home. An entry sits on the radar only while its fate is undecided.
 
 ## Rings
 
-The radar has three rings, each a directory:
+The radar has four rings, each a directory:
 
-- **assess/** — under evaluation; we are looking at it and weighing its fit
-- **adopt/** — accepted; the decision is yes
-- **hold/** — rejected, or not now
+- **assess/**, under evaluation, including testing. Assess asks what a product does. An entry moves on to trial or adopt only when its gates and Security section are Verified, or a named person has recorded an override
+- **trial/**, optional real use in a limited, named scope, with an end condition set before it starts. Trial asks how a product lives with us, and is used only when real use can answer something testing cannot
+- **adopt/**, accepted; the decision is yes
+- **hold/**, not now, until a named condition changes
 
-The ring is the decision. An entry's location states the verdict; no separate decision record is kept.
+Rejected entries are archived outside the rings. The ring states where an entry stands; the reasons are in the entry and its `uc-radar_evaluation` block. The [UC Radar Evaluation Lifecycle](uc-radar--evaluation-lifecycle-v0.2.0.md) defines the states and transitions, and the [Universal Cake Evaluation Metrics](universal-cake-evaluation-metrics-v0.6.0.md) say what each one requires of the evaluation.
 
 ## Adoption graduates out
 
-`adopt/` is a transit state, not storage. Once an entry is adopted its idea moves to its permanent home elsewhere in `en/docs/` — `language/`, `architecture/`, `guides/`, `specifications/`, and so on — and the radar entry leaves. The radar holds only what is still in question, so a healthy `adopt/` is often empty.
+`adopt/` is a transit state, not storage. Once an entry is adopted its idea moves to its permanent home elsewhere in `en/docs/`, such as `language/`, `architecture/`, `guides/`, or `specifications/`, and the radar entry leaves. The radar holds only what is still in question, so a healthy `adopt/` is often empty.
 
 ## Categories
 
@@ -22,9 +23,8 @@ The radar has no category subdirectories. What kind of thing an entry is lives i
 
 ## What this radar omits
 
-This radar departs deliberately from the conventional four-ring model:
+This radar departs deliberately from common radar practice in one way:
 
-- **No `trial` ring.** Trial marks piloting between assessment and adoption. SAT has no such stage — an item is under assessment, adopted, or held, and `assess` covers the gap.
 - **No `decisions/` folder.** The ring already records the decision and git records its history; a separate log would duplicate both.
 
 ## Rationale travels with the entry
@@ -43,4 +43,4 @@ The double hyphen separates the blip slug from its tagline so an entry can be id
 
 ## Entry template
 
-New entries are based on `radar-entry-template.md` in this directory.
+New entries are based on the [UC Radar Entry Template](uc-radar-entry-template-v0.3.0.md) in this directory.
