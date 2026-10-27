@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-10-27
+
 ### Added
 
 - *Universal Cake Evaluation: mise-en-place* 0.1.1 (provisional): what running its conda backend on git showed, where mise acts beyond user space, and uc-automa 0034's use of mise. Ring unchanged, Assess.
