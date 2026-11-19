@@ -6,6 +6,49 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-11-19
+
+- Added new evaluations to assess
+
+```text
+	new file:   en/docs/radar/assess/dns/uc-radar--desec--dns-hosting-v0.1.0.md
+	deleted:    en/docs/radar/assess/dual-mode-language-authority--standard-aware-not-standard-dependent.md
+	new file:   en/docs/radar/assess/email-providers/uc-radar--ex2--email-hosting-v0-1-0.md
+	new file:   en/docs/radar/assess/firewall/uc-radar--foomuuri--nftables-firewall-manager-v0.1.0.md
+	renamed:    en/docs/radar/assess/dual-mode-language-authority--standard-aware-not-standard-dependent-002.md -> en/docs/radar/assess/language-flexibility/dual-mode-language-authority--standard-aware-not-standard-dependent-002.md
+	new file:   en/docs/radar/assess/mesh-networks/Untitled Document.md
+	new file:   en/docs/radar/assess/mesh-networks/mesh-network-ratings.md
+	new file:   en/docs/radar/assess/mesh-networks/mesh-networking-for-ansible-reach.md
+	new file:   en/docs/radar/assess/mesh-networks/universal-cake-evaluation--headscale-and-tailscale--mesh-network-v0.1.0.md
+	new file:   en/docs/radar/assess/mesh-networks/universal-cake-evaluation--netbird--mesh-network-v0.1.0.md
+	new file:   en/docs/radar/assess/password-and-passphase-generators/password-and-passphase-generators.md
+	renamed:    en/docs/radar/assess/password-apps/universal-cake-evaluation--xkcdpass--passphrase-generator-v0-1-0.md -> en/docs/radar/assess/password-and-passphase-generators/universal-cake-evaluation--xkcdpass--passphrase-generator-v0-1-0.md
+	new file:   en/docs/radar/assess/password-managers/more-password-managers.md
+	new file:   en/docs/radar/assess/password-managers/password-manager-recommendations-and-notes.md
+	new file:   en/docs/radar/assess/password-managers/universal-cake-evaluation--gopass--password-generation-v0.1.0.md
+	new file:   en/docs/radar/assess/password-managers/universal-cake-evaluation--gopass--password-manager-v0.1.0.md
+	new file:   en/docs/radar/assess/password-managers/universal-cake-evaluation--gopassbridge--browser-extension-v0.1.0.md
+	new file:   en/docs/radar/assess/password-managers/universal-cake-evaluation--keepassxc--password-manager-v0.1.0.md
+	new file:   en/docs/radar/assess/password-managers/universal-cake-evaluation--pass--password-manager-v0.1.0.md
+	new file:   en/docs/radar/assess/password-managers/universal-cake-evaluation--passage--password-manager-v0.1.0.md
+	deleted:    en/docs/radar/assess/pip-licenses.md
+	new file:   en/docs/radar/assess/pipx/pipx.md
+	new file:   en/docs/radar/assess/ssh-audit/ssh-audit.md
+	new file:   en/docs/radar/assess/utilities/uc-radar--shellcheck--shell-script-linter-v0.1.0.md
+	new file:   en/docs/radar/assess/vps-providers/Here's a comparison filtered for what actually mat.md
+	new file:   en/docs/radar/assess/vps-providers/ec2-factsheet.md
+	new file:   en/docs/radar/assess/vps-providers/uc-radar--ex2--vps-hosting-v0-1-0.md
+	new file:   en/docs/radar/assess/wemi-namespace/artifacts/wemi-digital-content-guide.md
+	new file:   en/docs/radar/assess/wemi-namespace/artifacts/wemi-for-digital-content.md
+	new file:   en/docs/radar/assess/wemi-namespace/artifacts/wemi-for-files.md
+	new file:   en/docs/radar/assess/wemi-namespace/artifacts/wemi-structural-namespace-specification-v0.1.0.md
+	new file:   en/docs/radar/assess/wemi-namespace/artifacts/wemi-structural-namespace-specification-v0.1.3.md
+	new file:   en/docs/radar/assess/wemi-namespace/artifacts/wemi-structural-namespace.md
+	new file:   en/docs/radar/assess/wemi-namespace/work-and-expression.md
+	renamed:    en/docs/radar/assess/bootstrap-5.md -> en/docs/radar/assess/zabbly.com/bootstrap-5.md
+	new file:   en/docs/radar/uc-radar--telemetry-trace-procedure--draft-v0-1-0.md
+```
+
 ## [0.3.0] - 2026-10-27
 
 ### Added
